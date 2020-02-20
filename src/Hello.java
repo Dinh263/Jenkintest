@@ -9,6 +9,12 @@ public class Hello {
                 System.out.println(x);
             }
         });
+        System.out.println("**********only get the number can divide for 5 ************");
+        IntStream.range(1,50).forEach(x->{
+            if(x%5==0){
+                System.out.println(x);
+            }
+        });
         System.out.println("=========done testing===========");
     }
 }
